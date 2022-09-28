@@ -1,0 +1,52 @@
+.navBarTop{
+    background: rgba(232, 254, 255, 0.2);  
+    border-bottom: 2px solid #FFFFFF;
+    backdrop-filter: blur(5px);
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 111;
+    .nav-offcanvas{
+        width: 100%;
+    }
+    ul.navbar-nav { 
+        flex-direction: inherit;
+        gap: 40px;
+    }
+}
+.nav-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width: 991.98px){
+    .nav-offcanvas {
+        position: fixed;
+        left: -100%;
+        width: 300px !important;
+        top: 0;
+        height: 100vh;
+        background: #d6a4d6;  
+        border-right: 2px solid #FFFFFF;
+        transition: all .3s ;
+        
+    }
+    .nav-offcanvas.active{
+        left: 0;
+    }
+    .navbar-brand { 
+        margin: 0 auto;
+    }
+    .navBarTop ul.navbar-nav {
+        display: grid;
+        gap: 13px !important;
+        text-align: left;
+        float: left;
+        padding: 20px;
+    }
+    .wallet-btn{
+        display: none;
+    }
+} 

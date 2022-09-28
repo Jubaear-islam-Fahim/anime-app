@@ -1,0 +1,76 @@
+.stake-area{
+    position: relative;
+    padding: 150px 0 240px;
+    &::after,
+    &::before{
+        content: '';
+        position: absolute;
+        width: 100%; 
+        left: 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &::before{ 
+        top: 0;
+        height: 185px; 
+        background-image: url('../../assets/img/stake-shape1.png');
+    }
+    &::after{ 
+        bottom: 75px;
+        height: 270px; 
+        background-image: url('../../assets/img/stake-shape2.png');
+    }
+    .stake-img{
+        position: absolute;
+        right: -16px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 50%;
+    }
+    .check-list{
+        display: grid;
+        gap: 15px;
+        li{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            &::before{
+                content: "\f058";
+                font-family: "Font Awesome 6 free";
+                font-weight: 800;
+                color: #F902F8;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.stake-text{
+    position: relative;
+    z-index: 1;
+}
+
+
+@media (max-width: 767.98px){
+    .stake-area { 
+        padding: 90px 0 69px;
+    }
+    .stake-area::before { 
+        height: 64px; 
+    }
+    .stake-area .stake-img {
+        position: relative;
+        width: 131%;
+        left: -78px;
+        top: 0;
+        transform: unset;
+    }
+    .stake-img img {
+        width: 100%;
+    }
+    .stake-area::after {
+        bottom: 0;
+        height: 87px; 
+    }
+}

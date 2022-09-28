@@ -1,0 +1,60 @@
+.team-image {
+    img {
+        width: 100%;
+    }
+}
+
+.team-contents {
+    .team-item {
+        text-align: center;
+
+        img {
+            background: white;
+            border-radius: 100%;
+            max-width: 142px;
+            max-height: 142px;
+            margin: 0 auto;
+        }
+
+        .name {
+            font-family: 'Montserrat';
+            font-weight: 500;
+            font-size: 18px;
+            color: #00006A;
+            padding-top: 10px;
+        }
+    }
+}
+
+.team-text {
+    
+    .h6 {
+        font-family: 'Montserrat';
+        font-weight: 500; 
+        font-size: 22px;
+    }
+
+    p {
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 16px;
+        color: #424266;
+        margin-top: 20px;
+
+    }
+}
+
+.team-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+
+    .nextButton {
+        color: #00006A !important;
+        background: no-repeat;
+        border: 0;
+        font-size: 30px;
+    }
+}
