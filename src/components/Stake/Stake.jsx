@@ -17,7 +17,7 @@ const Stake = () => {
                                     <li>Which will allow people to stake their tokens</li> 
                                 </ul>
                             </div>
-                            <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1400">
+                            <div className='text-center text-lg-start' data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1400">
                                 <a href="/" className="btn-lg">Get started</a>
                             </div>
                         </div>

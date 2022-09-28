@@ -11,7 +11,7 @@ const TokenStatistics = () => {
                     <div className="h2 section-title">Token statistics</div>
                 </div>
             </div>
-            <div className="row pt-5">
+            <div className="row pt-5 row-gap">
                 <div className="col-lg-6">
                     <div className="token-chart token-box" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                         <div className="d-flex token-header-title">
@@ -20,7 +20,7 @@ const TokenStatistics = () => {
                                 <span className='fw-bold fs-5'>Lucky8</span>
                             </div>
                             <div className="apr-item ms-auto token-height">
-                                <div className="h5 fw-bold">27.0% <sub>APR</sub></div> 
+                                <div className="h5">27.0% <sub>APR</sub></div> 
                             </div>
                         </div>
                         <div className="chart-img">
@@ -67,7 +67,7 @@ const TokenStatistics = () => {
                             <div className="token-availability-item">
                                 <a href="/" className="btn-lg">Tier 1</a> 
                                 <div className="apr-item ms-auto order-lg-1">
-                                    <div className="h5 fw-bold">146% <sub>APR</sub></div>  
+                                    <div className="h5 fw-regular">146% <sub>APR</sub></div>  
                                 </div>
                                 <div className="h5 token-number">
                                     888,888,888,888.00
@@ -78,7 +78,7 @@ const TokenStatistics = () => {
                             <div className="token-availability-item">
                                 <a href="/" className="btn-lg">Tier 2</a>
                                 <div className="apr-item ms-auto order-lg-1">
-                                    <div className="h5 fw-bold">73% <sub>APR</sub></div>  
+                                    <div className="h5">73% <sub>APR</sub></div>  
                                 </div>
                                 <div className="h5 token-number">
                                     657,544,893,342.00
@@ -90,7 +90,7 @@ const TokenStatistics = () => {
                             <div className="token-availability-item">
                                 <a href="/" className="btn-lg">Tier 3</a>
                                 <div className="apr-item ms-auto order-lg-1">
-                                    <div className="h5 fw-bold">36.5% <sub>APR</sub></div>  
+                                    <div className="h5">36.5% <sub>APR</sub></div>  
                                 </div>
                                 <div className="h5 token-number">
                                     0
