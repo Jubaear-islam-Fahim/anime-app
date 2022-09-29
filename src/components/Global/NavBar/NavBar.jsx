@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react"; 
-import { FaBars } from "react-icons/fa";
+import React, { useState, useEffect } from "react";  
 import {Link} from 'react-scroll';
 import logo from '../../../assets/img/logo.png'
 import wallet from '../../../assets/img/wallet.png'
-import { GrClose } from "react-icons/gr";
+import bar from '../../../assets/img/bar.png'
+import { GrClose } from "react-icons/gr"; 
 import './NavBar.scss';
 const NavBar = () => {
     const [click, setClick] = useState(false)
@@ -22,7 +22,7 @@ const NavBar = () => {
             <div className="container"> 
                 <div className="nav-content">
                     <button class="navbar-toggler d-flex border-0 d-lg-none" type="button" onClick={handleClick}>
-                        <FaBars /> 
+                        <img src={bar} alt="" />
                     </button> 
                     <div className="logo-nav">
                         <Link className="navbar-brand nav-link" to="home"> 

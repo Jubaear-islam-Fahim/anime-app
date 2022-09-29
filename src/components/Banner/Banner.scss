@@ -76,7 +76,7 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        width: 70px;
+        width: 65px;
         height: 70%;
         background-repeat: no-repeat;
         background-position: center;
@@ -86,12 +86,12 @@
 
     &::before {
         left: 0;
-        background-image: url('../../assets/img/banner-shap2.png');
+        background-image: url('../../assets/img/banner-shap1.png');
     }
 
     &::after {
         right: 0;
-        background-image: url('../../assets/img/banner-shap1.png');
+        background-image: url('../../assets/img/banner-shap2.png');
     }
 }
 
