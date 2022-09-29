@@ -64,7 +64,7 @@ const Team = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row mt-5 row-gap">
+                <div className="row team-row row-gap">
                     <div className="col-lg-7" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                         <div className="team-image d-none d-lg-block">
                             <img src={team} alt="" />

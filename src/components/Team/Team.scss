@@ -58,3 +58,13 @@
         font-size: 30px;
     }
 }
+
+.team-row{
+    margin-top: 80px;
+}
+
+@media (max-width: 767.98px){
+    .team-row {
+        margin-top: 40px;
+    } 
+}

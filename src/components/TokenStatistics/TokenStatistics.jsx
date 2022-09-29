@@ -11,7 +11,7 @@ const TokenStatistics = () => {
                     <div className="h2 section-title">Token statistics</div>
                 </div>
             </div>
-            <div className="row pt-5 row-gap">
+            <div className="token-row row row-gap">
                 <div className="col-lg-6">
                     <div className="token-chart token-box" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                         <div className="d-flex token-header-title">

@@ -88,6 +88,10 @@
     }
 }
 
+.token-row{
+    margin-top: 65px;
+}
+
 @media (max-width: 1520px) {
     .token-availability-content {
         gap: 15px;
@@ -119,5 +123,11 @@
     .token-box .token-header-title {
         padding-bottom: 23px;
         height: auto;
+    }
+    .token-area {
+        padding-top: 16px;
+    }
+    .token-row {
+        margin-top: 50px;
     }
 }
