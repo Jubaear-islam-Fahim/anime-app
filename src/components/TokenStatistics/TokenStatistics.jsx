@@ -61,7 +61,7 @@ const TokenStatistics = () => {
                 <div className="col-lg-6">
                     <div className="token-availability token-box" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1300">
                         <div className="token-header-title">
-                            <span className='fw-bold fs-5'>Availability in staking pool</span>
+                            <span className='fw-bold fs-5'>Availability in <br className='d-lg-none' /> staking pool</span>
                         </div>
                         <div className="token-availability-content">
                             <div className="token-availability-item">

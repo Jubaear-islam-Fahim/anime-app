@@ -34,9 +34,11 @@
     font-weight: 400;
     text-align: center;
     letter-spacing: 0.05em;
-    .h5{
+
+    .h5 {
         font-weight: 400;
     }
+
     sub {
         font-weight: 300;
         font-size: 15px;
@@ -55,17 +57,20 @@
 .token-availability-content {
     display: grid;
     gap: 25px;
+
     .token-availability-item {
         display: flex;
         gap: 20px;
-        align-items: center;  
+        align-items: center;
 
         .token-number {
             text-align: left;
             font-weight: 400;
             margin-bottom: 0;
-
             line-height: 20px;
+            font-family: 'Sora';
+            font-size: 24px;
+            margin-top: 10px;
 
             span {
                 font-weight: 300;
@@ -83,8 +88,8 @@
     }
 }
 
-@media (max-width: 1520px){
-    .token-availability-content { 
+@media (max-width: 1520px) {
+    .token-availability-content {
         gap: 15px;
     }
 }
@@ -101,11 +106,18 @@
     .apr-item span {
         font-size: 11px;
     }
-    .token-availability-content .token-availability-item { 
+
+    .token-availability-content .token-availability-item {
         flex-wrap: wrap;
-        gap: 13px;  
+        gap: 13px;
     }
-    .row-gap{
+
+    .row-gap {
         row-gap: 25px;
+    }
+
+    .token-box .token-header-title {
+        padding-bottom: 23px;
+        height: auto;
     }
 }

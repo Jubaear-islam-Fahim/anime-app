@@ -3,6 +3,7 @@ import { FaBars } from "react-icons/fa";
 import {Link} from 'react-scroll';
 import logo from '../../../assets/img/logo.png'
 import wallet from '../../../assets/img/wallet.png'
+import { GrClose } from "react-icons/gr";
 import './NavBar.scss';
 const NavBar = () => {
     const [click, setClick] = useState(false)
@@ -29,6 +30,11 @@ const NavBar = () => {
                         </Link>
                     </div>
                     <div className={click ? "nav-offcanvas active" : "nav-offcanvas"}> 
+                        <div className="d-lg-none navClose">
+                            <Link onClick={closeMenu}>
+                                <GrClose/>
+                            </Link>
+                        </div>
                         <ul className="navbar-nav justify-content-center"> 
                             <li className="nav-item">
                                 <Link to="home" className="nav-link" spy={true} offset={-100} onClick={closeMenu}>

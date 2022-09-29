@@ -9,6 +9,8 @@ const Banner = () => {
 
       </div>
       <div className="banner-text">
+        <div className="head-title"> 
+        </div>
         <h1 data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1000">Lorem ipsum</h1>
         <p data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1200">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1400">

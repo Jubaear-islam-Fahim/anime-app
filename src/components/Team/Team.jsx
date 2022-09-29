@@ -1,6 +1,7 @@
 import React, { useEffect,useRef } from "react";
 import Slider from "react-slick";
 import team from '../../assets/img/team.png'
+import teamPhone from '../../assets/img/team-phone.png'
 import team1 from '../../assets/img/t1.png'
 import team2 from '../../assets/img/t2.png'
 import team3 from '../../assets/img/t3.png'
@@ -65,8 +66,11 @@ const Team = () => {
                 </div>
                 <div className="row mt-5 row-gap">
                     <div className="col-lg-7" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1000">
-                        <div className="team-image">
+                        <div className="team-image d-none d-lg-block">
                             <img src={team} alt="" />
+                        </div>
+                        <div className="team-image d-lg-none">
+                            <img src={teamPhone} alt="" />
                         </div>
                     </div>
                     <div className="col-lg-5" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1300">

@@ -12,6 +12,13 @@
     ul.navbar-nav { 
         flex-direction: inherit;
         gap: 40px;
+        a{
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #00006A !important;
+        }
     }
 }
 .nav-content{
@@ -48,5 +55,12 @@
     }
     .wallet-btn{
         display: none;
+    }
+    .navClose {
+        position: absolute;
+        right: 12px;
+        top: 7px;
+        font-size: 20px;
+        cursor: pointer;
     }
 } 
