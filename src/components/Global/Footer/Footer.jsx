@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../../assets/img/logo-footer.png'
+import logo from '../../../assets/img/logo.png'
 import send from '../../../assets/img/send.png'
 import Send2 from '../../../assets/img/Send2.png'
 import discord from '../../../assets/img/discord.png'
@@ -18,7 +18,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-lg-3 align-self-center">
                         <div className="footer-logo">
-                            <a href="/"><img src={logo} alt="" /></a>
+                            <a href="/"><img src={logo} alt="" height={60} /></a>
                         </div>
                     </div>
                     <div className="col-lg-6 align-self-center">

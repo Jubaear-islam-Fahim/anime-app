@@ -45,6 +45,9 @@
     }
     .navbar-brand { 
         margin: 0 auto;
+        img{
+            height: 30px;
+        }
     }
     .navBarTop ul.navbar-nav {
         display: grid;

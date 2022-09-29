@@ -3,6 +3,7 @@ import {Link} from 'react-scroll';
 import logo from '../../../assets/img/logo.png'
 import wallet from '../../../assets/img/wallet.png'
 import bar from '../../../assets/img/bar.png'
+// import LuckyEight from '../../../assets/img/LuckyEight-logo.svg'
 import { GrClose } from "react-icons/gr"; 
 import './NavBar.scss';
 const NavBar = () => {
@@ -26,7 +27,7 @@ const NavBar = () => {
                     </button> 
                     <div className="logo-nav">
                         <Link className="navbar-brand nav-link" to="home"> 
-                            <img src={logo} alt="" width={110} height={30} />
+                            <img src={logo} alt="" height={45} />
                         </Link>
                     </div>
                     <div className={click ? "nav-offcanvas active" : "nav-offcanvas"}> 
